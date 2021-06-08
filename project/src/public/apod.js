@@ -1,6 +1,5 @@
 let store = {
-    apod: '',
-    rovers: Immutable.List(['Curiosity', 'Opportunity', 'Spirit']),
+    apod: ''
 }
 
 // add our markup to the page
@@ -18,7 +17,7 @@ const render = async (root, state) => {
 
 // create content
 const App = (state) => {
-    let { rovers, apod } = state
+    let { apod } = state
 
     return `
         <main>

@@ -5,12 +5,32 @@ Mars Rover Project 2
 
 # To Run the project
 
-- The github repo for this project onto your local machine 
-
-- Perform the following in a terminal: 
+- Clone the github repo for this project onto your local machine
 
 ```bash 
-cd project2-mars-rover/project/src
+git clone git@github.com:fictiveUniverse/project2-mars-rover.git
 ```
 
-- Run `yarn start` in your terminal and go to `http:localhost:3000` to check that your app is working.
+- Change Directory to the following path: 
+
+```bash 
+cd project2-mars-rover/project/src/server
+```
+
+- For this project we are using `yarn` as our package manager, so to install your dependencies run:
+
+```bash
+yarn install 
+```
+
+- Run `yarn start` in your terminal and go to `localhost:3000` via your browser to check that the app is working.
+
+- Should see a similar output if `yarn start` is successful:
+
+```bash 
+$ yarn start
+yarn run v1.22.10
+warning ..\package.json: No license field
+$ node src/server/index.js
+Example app listening on port 3000!
+```
