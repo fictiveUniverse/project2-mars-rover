@@ -2,14 +2,24 @@
 
 Mars Rover Project 2
 
+This project consumes NASA's API to display photos/info on the various Mar Rovers.
 
-# To Run the project
+- [NASA API](https://api.nasa.gov/)
 
+
+# Steps to Run the project
+
+## Clone Project
 - Clone the github repo for this project onto your local machine
 
 ```bash 
 git clone git@github.com:fictiveUniverse/project2-mars-rover.git
 ```
+
+
+## NPM
+- For this project we are using npm
+- Packages needed for NPM are pre-installed and added to this git repo 
 
 - Change Directory to the following path: 
 
@@ -17,20 +27,23 @@ git clone git@github.com:fictiveUniverse/project2-mars-rover.git
 cd project2-mars-rover/project/src/server
 ```
 
-- For this project we are using `yarn` as our package manager, so to install your dependencies run:
-
+- Run the following command
+-  
 ```bash
-yarn install 
+npm start
 ```
 
-- Run `yarn start` in your terminal and go to `localhost:3000` via your browser to check that the app is working.
-
-- Should see a similar output if `yarn start` is successful:
+You should see a similar output: 
 
 ```bash 
-$ yarn start
-yarn run v1.22.10
-warning ..\package.json: No license field
-$ node src/server/index.js
+> jsnd3_mars_dashboard@1.0.0 start C:\Users\Priyal\Documents\Udacity\test-submission\project2-mars-rover\project
+> node src/server/index.js
+
 Example app listening on port 3000!
 ```
+
+## Launch the App in a Browser
+
+- Open your browser and set the browser address to `localhost:3000` and `enter`
+
+- Should see a page that looks like 
