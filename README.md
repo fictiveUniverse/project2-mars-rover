@@ -13,7 +13,7 @@ This project consumes NASA's API to display photos/info on the various Mar Rover
 - Clone the github repo for this project onto your local machine
 
 ```bash 
-git clone git@github.com:fictiveUniverse/project2-mars-rover.git
+git clone https://github.com/fictiveUniverse/project2-mars-rover.git
 ```
 
 
