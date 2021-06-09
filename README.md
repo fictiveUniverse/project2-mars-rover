@@ -47,3 +47,11 @@ Example app listening on port 3000!
 - Open your browser and set the browser address to `localhost:3000` and `enter`
 
 - Should see a page that looks like 
+
+![](assests/screenshot-index.png)
+
+- From here you can navigate to the different pages by using the top Navigation Bar. 
+
+- For example if you click on APOD, the site will bring you to the following: 
+
+![](assests/screenshot-apod.png)
